@@ -1,0 +1,9 @@
+matchesJSON = fileread("matches.json");
+jsonSerialized = jsondecode(matchesJSON);
+data = struct2table(jsonSerialized);
+
+fields = fieldnames(data.score_breakdown);
+for i=1:numel(fields)
+    fval = data.(fields{i})
+end
+

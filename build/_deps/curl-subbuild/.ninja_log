@@ -1,0 +1,21 @@
+# ninja log v5
+1537	1556	1683317532357294744	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	be70b8e94e761103
+1592	1612	1683317532413294827	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	b56eb94092344636
+1	75	1683317530873292535	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	ebf3afab7aef585c
+1575	1592	1683317532393294798	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	d82e36e8537951f7
+1575	1592	1683317532393294798	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	d82e36e8537951f7
+1537	1556	1683317532357294744	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	be70b8e94e761103
+1519	1537	1683317532337294714	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	af5c6644a9b3b17e
+1	75	1683317530873292535	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	ebf3afab7aef585c
+1612	1638	1683317532437294863	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	2154ce16e15cf8f9
+1612	1638	1683317532437294863	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	2154ce16e15cf8f9
+1612	1638	1683317532437294863	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	2154ce16e15cf8f9
+1502	1519	1683317532317294685	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	de0093f3e26d7c92
+1592	1612	1683317532413294827	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	b56eb94092344636
+1502	1519	1683317532317294685	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	de0093f3e26d7c92
+75	1502	1683317532301294661	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	5625fd245e083b96
+1556	1575	1683317532373294768	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	8ed7d070216b1360
+75	1502	1683317532301294661	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	5625fd245e083b96
+1612	1638	1683317532437294863	CMakeFiles/curl-populate-complete	2154ce16e15cf8f9
+1556	1575	1683317532373294768	/home/aidan/Projects/botdogs-scout/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	8ed7d070216b1360
+1519	1537	1683317532337294714	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	af5c6644a9b3b17e
