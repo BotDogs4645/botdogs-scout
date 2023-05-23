@@ -1,0 +1,17 @@
+com.chicagostylebotdogs.scout.botdogs_scout.app-jetified-window-java-1.0.0-beta04-0 /home/aidan/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-jetified-play-services-base-18.0.1-1 /home/aidan/.gradle/caches/transforms-3/082fa8f1e076fd76c98f4d760b4e67b1/transformed/jetified-play-services-base-18.0.1/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-jetified-play-services-basement-18.2.0-2 /home/aidan/.gradle/caches/transforms-3/10e411e408063a3ed7eb4e7e19983f6d/transformed/jetified-play-services-basement-18.2.0/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-jetified-play-services-auth-20.5.0-3 /home/aidan/.gradle/caches/transforms-3/2f242034b75eb25a4a42e0262b447777/transformed/jetified-play-services-auth-20.5.0/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-core-1.6.0-4 /home/aidan/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-jetified-annotation-experimental-1.1.0-5 /home/aidan/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-jetified-window-1.0.0-beta04-6 /home/aidan/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-debug-7 /home/aidan/Projects/botdogs-scout/android/app/src/debug/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-main-8 /home/aidan/Projects/botdogs-scout/android/app/src/main/res
+com.chicagostylebotdogs.scout.botdogs_scout.app-pngs-9 /home/aidan/Projects/botdogs-scout/build/app/generated/res/pngs/debug
+com.chicagostylebotdogs.scout.botdogs_scout.app-resValues-10 /home/aidan/Projects/botdogs-scout/build/app/generated/res/resValues/debug
+com.chicagostylebotdogs.scout.botdogs_scout.app-rs-11 /home/aidan/Projects/botdogs-scout/build/app/generated/res/rs/debug
+com.chicagostylebotdogs.scout.botdogs_scout.app-mergeDebugResources-12 /home/aidan/Projects/botdogs-scout/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.chicagostylebotdogs.scout.botdogs_scout.app-mergeDebugResources-13 /home/aidan/Projects/botdogs-scout/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.chicagostylebotdogs.scout.botdogs_scout.app-merged_res-14 /home/aidan/Projects/botdogs-scout/build/app/intermediates/merged_res/debug
+com.chicagostylebotdogs.scout.botdogs_scout.app-packaged_res-15 /home/aidan/Projects/botdogs-scout/build/google_sign_in_android/intermediates/packaged_res/debug
+com.chicagostylebotdogs.scout.botdogs_scout.app-packaged_res-16 /home/aidan/Projects/botdogs-scout/build/path_provider_android/intermediates/packaged_res/debug
