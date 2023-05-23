@@ -54,11 +54,18 @@ class TBA_Training_API : public TBA {
   public:
     TBA_Training_API(string api_key) : TBA(api_key) {}
 
-    void to_MATLAB_Serializable(int teamNum, std::vector<string> eventCodes) {
+    basic_json<> to_MATLAB_Serializable(int teamNum, std::vector<string> eventCodes) {
+      basic_json<> ret;
       std::vector<basic_json<>> events;
-      for(string str : eventCodes) {
-        events.push_back(getMatches(teamNum, str));
+      for(string ptr : eventCodes) {
+        events.push_back(getMatches(4645, ptr));
       }
+      for(int i = 0; i < events.size(); i++) {
+        for(int j = 0; j < events[i].size(); j++) {
+          ret.push_back(events[i][j]["score_breakdown"]);
+        }
+      }
+      return ret;
    }
 
 };
