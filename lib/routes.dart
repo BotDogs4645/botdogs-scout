@@ -3,6 +3,7 @@ import 'package:botdogs_scout/auth/auth.dart';
 import 'package:botdogs_scout/home/home.dart';
 import 'package:botdogs_scout/pit/pitScout.dart';
 import 'package:botdogs_scout/stats/stats.dart';
+import 'package:botdogs_scout/guest/guest.dart';
 
 var appRoutes = {
   '/': (context) => const HomePage(),
@@ -10,4 +11,5 @@ var appRoutes = {
   '/auth': (context) => const AuthPage(),
   '/stats': (context) => const StatsPage(),
   '/pit': (context) => const PitScoutPage(),
+  '/guest': (context) => const GuestPage(),
 };
