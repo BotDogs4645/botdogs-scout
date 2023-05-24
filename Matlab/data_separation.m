@@ -1,4 +1,3 @@
-matchesJSON = fileread("matches.json");
+matchesJSON = fileread("output.json");
 jsonSerialized = jsondecode(matchesJSON);
 data = struct2table(jsonSerialized);
-scoresTable = struct2table(data.score_breakdown);

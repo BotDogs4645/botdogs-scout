@@ -70,8 +70,9 @@ class TBA_Training_API : public TBA {
           temp.emplace("activationBonusAchieved", events[i][j]["score_breakdown"][alliance]["activationBonusAchieved"]);
           temp.emplace("autoDocked", events[i][j]["score_breakdown"][alliance]["autoDocked"]);
           temp.emplace("autoPoints", events[i][j]["score_breakdown"][alliance]["autoPoints"]);
-
-
+          temp.emplace("autoChargeStationRobot1", events[i][j]["score_breakdown"][alliance]["autoChargeStationRobot1"]);
+          temp.emplace("autoChargeStationRobot2", events[i][j]["score_breakdown"][alliance]["autoChargeStationRobot2"]);
+          temp.emplace("autoChargeStationRobot3", events[i][j]["score_breakdown"][alliance]["autoChargeStationRobot3"]);
 
           ret.push_back(temp);
         }

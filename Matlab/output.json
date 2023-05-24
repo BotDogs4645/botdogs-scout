@@ -1,66 +1,121 @@
 [
     {
         "activationBonusAchieved": false,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "None",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": false,
+        "autoPoints": 15,
         "team1": "frc8880",
         "team2": "frc5148",
         "team3": "frc1625"
     },
     {
         "activationBonusAchieved": true,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "Docked",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": true,
+        "autoPoints": 21,
         "team1": "frc4702",
         "team2": "frc379",
         "team3": "frc1739"
     },
     {
         "activationBonusAchieved": true,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "None",
+        "autoChargeStationRobot3": "Docked",
+        "autoDocked": true,
+        "autoPoints": 8,
         "team1": "frc2506",
         "team2": "frc4645",
         "team3": "frc7460"
     },
     {
         "activationBonusAchieved": false,
+        "autoChargeStationRobot1": "Docked",
+        "autoChargeStationRobot2": "None",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": true,
+        "autoPoints": 27,
         "team1": "frc111",
         "team2": "frc2077",
         "team3": "frc4787"
     },
     {
         "activationBonusAchieved": false,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "None",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": false,
+        "autoPoints": 13,
         "team1": "frc6651",
         "team2": "frc4645",
         "team3": "frc5125"
     },
     {
         "activationBonusAchieved": false,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "None",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": false,
+        "autoPoints": 18,
         "team1": "frc3488",
         "team2": "frc112",
         "team3": "frc4645"
     },
     {
         "activationBonusAchieved": false,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "None",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": false,
+        "autoPoints": 18,
         "team1": "frc8096",
         "team2": "frc2830",
         "team3": "frc5934"
     },
     {
         "activationBonusAchieved": true,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "Docked",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": true,
+        "autoPoints": 26,
         "team1": "frc4645",
         "team2": "frc677",
         "team3": "frc48"
     },
     {
         "activationBonusAchieved": true,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "Docked",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": true,
+        "autoPoints": 23,
         "team1": "frc4327",
         "team2": "frc1781",
         "team3": "frc3067"
     },
     {
         "activationBonusAchieved": true,
+        "autoChargeStationRobot1": "Docked",
+        "autoChargeStationRobot2": "None",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": true,
+        "autoPoints": 40,
         "team1": "frc1781",
         "team2": "frc4645",
         "team3": "frc930"
     },
     {
         "activationBonusAchieved": false,
+        "autoChargeStationRobot1": "None",
+        "autoChargeStationRobot2": "Docked",
+        "autoChargeStationRobot3": "None",
+        "autoDocked": true,
+        "autoPoints": 29,
         "team1": "frc2077",
         "team2": "frc4645",
         "team3": "frc8880"
