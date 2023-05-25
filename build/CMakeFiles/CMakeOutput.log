@@ -15,20 +15,20 @@ The C compiler identification is Clang, found in "/home/aidan/Projects/botdogs-s
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/clang++ 
 Build flags: 
-Id flags: -c 
+Id flags:  
 
 The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is Clang, found in "/home/aidan/Projects/botdogs-scout/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is Clang, found in "/home/aidan/Projects/botdogs-scout/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_20c1a && [1/2] Building C object CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o
+Run Build Command(s):/usr/bin/ninja cmTC_a2167 && [1/2] Building C object CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o
 Ubuntu clang version 14.0.0-1ubuntu1
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -39,7 +39,7 @@ Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/12
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
  (in-process)
- "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
 ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
 ignoring nonexistent directory "/include"
@@ -50,7 +50,7 @@ ignoring nonexistent directory "/include"
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-[2/2] Linking C executable cmTC_20c1a
+[2/2] Linking C executable cmTC_a2167
 Ubuntu clang version 14.0.0-1ubuntu1
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -60,7 +60,7 @@ Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/12
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/12
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_20c1a /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a2167 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o
 
 
 
@@ -83,7 +83,7 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_20c1a && [1/2] Building C object CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_a2167 && [1/2] Building C object CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o]
   ignore line: [Ubuntu clang version 14.0.0-1ubuntu1]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -96,7 +96,7 @@ Parsed C implicit link information from above output:
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
   ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu]
   ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
   ignore line: [ignoring nonexistent directory "/include"]
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [[2/2] Linking C executable cmTC_20c1a]
+  ignore line: [[2/2] Linking C executable cmTC_a2167]
   ignore line: [Ubuntu clang version 14.0.0-1ubuntu1]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -119,7 +119,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_20c1a /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a2167 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-pie] ==> ignore
     arg [-zrelro] ==> ignore
@@ -131,7 +131,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_20c1a] ==> ignore
+    arg [cmTC_a2167] ==> ignore
     arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
     arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
@@ -144,7 +144,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-14/bin/../lib] ==> dir [/usr/lib/llvm-14/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_20c1a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a2167.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -173,23 +173,10 @@ Parsed C implicit link information from above output:
   implicit fwks: []
 
 
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/clang++ 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is Clang, found in "/home/aidan/Projects/botdogs-scout/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
-
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_af8a3 && [1/2] Building CXX object CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o
+Run Build Command(s):/usr/bin/ninja cmTC_53f4f && [1/2] Building CXX object CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o
 Ubuntu clang version 14.0.0-1ubuntu1
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -200,7 +187,7 @@ Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/12
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
  (in-process)
- "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
 ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
 ignoring nonexistent directory "/include"
@@ -214,7 +201,7 @@ ignoring nonexistent directory "/include"
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-[2/2] Linking CXX executable cmTC_af8a3
+[2/2] Linking CXX executable cmTC_53f4f
 Ubuntu clang version 14.0.0-1ubuntu1
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -224,7 +211,7 @@ Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/12
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/12
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_af8a3 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_53f4f /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o
 
 
 
@@ -253,7 +240,7 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_af8a3 && [1/2] Building CXX object CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_53f4f && [1/2] Building CXX object CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [Ubuntu clang version 14.0.0-1ubuntu1]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -266,7 +253,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
   ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu]
   ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
   ignore line: [ignoring nonexistent directory "/include"]
@@ -280,7 +267,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [[2/2] Linking CXX executable cmTC_af8a3]
+  ignore line: [[2/2] Linking CXX executable cmTC_53f4f]
   ignore line: [Ubuntu clang version 14.0.0-1ubuntu1]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -292,7 +279,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_af8a3 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_53f4f /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-pie] ==> ignore
     arg [-zrelro] ==> ignore
@@ -304,7 +291,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_af8a3] ==> ignore
+    arg [cmTC_53f4f] ==> ignore
     arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
     arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
@@ -317,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-14/bin/../lib] ==> dir [/usr/lib/llvm-14/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_af8a3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_53f4f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -347,8 +334,8 @@ Parsed CXX implicit link information from above output:
 Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE succeeded with the following compile output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_dae03 && [1/2] Building CXX object CMakeFiles/cmTC_dae03.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_dae03
+Run Build Command(s):/usr/bin/ninja cmTC_c20ad && [1/2] Building CXX object CMakeFiles/cmTC_c20ad.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c20ad
 
 
 ...and run output:
@@ -359,8 +346,8 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE succeeded with the following compile output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d79e0 && [1/2] Building CXX object CMakeFiles/cmTC_d79e0.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_d79e0
+Run Build Command(s):/usr/bin/ninja cmTC_51192 && [1/2] Building CXX object CMakeFiles/cmTC_51192.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_51192
 
 
 ...and run output:
@@ -371,8 +358,8 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test LEAK_SANITIZER_AVAILABLE succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_70db4 && [1/2] Building CXX object CMakeFiles/cmTC_70db4.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_70db4
+Run Build Command(s):/usr/bin/ninja cmTC_858de && [1/2] Building CXX object CMakeFiles/cmTC_858de.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_858de
 
 
 Source file was:
@@ -380,8 +367,8 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_af349 && [1/2] Building CXX object CMakeFiles/cmTC_af349.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_af349
+Run Build Command(s):/usr/bin/ninja cmTC_11443 && [1/2] Building CXX object CMakeFiles/cmTC_11443.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_11443
 
 
 Source file was:
@@ -389,8 +376,8 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test ALL_SANITIZERS_AVAILABLE succeeded with the following compile output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_289e5 && [1/2] Building CXX object CMakeFiles/cmTC_289e5.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_289e5
+Run Build Command(s):/usr/bin/ninja cmTC_608a0 && [1/2] Building CXX object CMakeFiles/cmTC_608a0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_608a0
 
 
 ...and run output:
@@ -401,8 +388,8 @@ int main() { return 0; }
 Performing C SOURCE FILE Test FNO_LTO_AVAILABLE succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_56639 && [1/2] Building C object CMakeFiles/cmTC_56639.dir/src.c.o
-[2/2] Linking C executable cmTC_56639
+Run Build Command(s):/usr/bin/ninja cmTC_cb6ee && [1/2] Building C object CMakeFiles/cmTC_cb6ee.dir/src.c.o
+[2/2] Linking C executable cmTC_cb6ee
 
 
 Source file was:
@@ -410,55 +397,55 @@ int main() { return 0; }
 Determining if the include file unistd.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_15419 && [1/2] Building C object CMakeFiles/cmTC_15419.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_15419
+Run Build Command(s):/usr/bin/ninja cmTC_0bb72 && [1/2] Building C object CMakeFiles/cmTC_0bb72.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0bb72
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_bb01d && [1/2] Building C object CMakeFiles/cmTC_bb01d.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_bb01d
+Run Build Command(s):/usr/bin/ninja cmTC_6da3a && [1/2] Building C object CMakeFiles/cmTC_6da3a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6da3a
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6ee6e && [1/2] Building C object CMakeFiles/cmTC_6ee6e.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_6ee6e
+Run Build Command(s):/usr/bin/ninja cmTC_3ef31 && [1/2] Building C object CMakeFiles/cmTC_3ef31.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3ef31
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6ac6a && [1/2] Building C object CMakeFiles/cmTC_6ac6a.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_6ac6a
+Run Build Command(s):/usr/bin/ninja cmTC_15342 && [1/2] Building C object CMakeFiles/cmTC_15342.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_15342
 
 
 
 Determining size of off64_t passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6673e && [1/2] Building C object CMakeFiles/cmTC_6673e.dir/OFF64_T.c.o
-[2/2] Linking C executable cmTC_6673e
+Run Build Command(s):/usr/bin/ninja cmTC_e81d2 && [1/2] Building C object CMakeFiles/cmTC_e81d2.dir/OFF64_T.c.o
+[2/2] Linking C executable cmTC_e81d2
 
 
 
 Determining if the function fseeko exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d73c3 && [1/2] Building C object CMakeFiles/cmTC_d73c3.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_d73c3
+Run Build Command(s):/usr/bin/ninja cmTC_34d5e && [1/2] Building C object CMakeFiles/cmTC_34d5e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_34d5e
 
 
 
 Determining if the function strerror exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_0f54e && [1/2] Building C object CMakeFiles/cmTC_0f54e.dir/CheckFunctionExists.c.o
+Run Build Command(s):/usr/bin/ninja cmTC_533d3 && [1/2] Building C object CMakeFiles/cmTC_533d3.dir/CheckFunctionExists.c.o
 /usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strerror' [-Wincompatible-library-redeclaration]
   CHECK_FUNCTION_EXISTS(void);
   ^
@@ -470,23 +457,23 @@ Run Build Command(s):/usr/bin/ninja cmTC_0f54e && [1/2] Building C object CMakeF
 #define CHECK_FUNCTION_EXISTS strerror
                               ^
 1 warning generated.
-[2/2] Linking C executable cmTC_0f54e
+[2/2] Linking C executable cmTC_533d3
 
 
 
 Determining if the function posix_memalign exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_4af70 && [1/2] Building C object CMakeFiles/cmTC_4af70.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_4af70
+Run Build Command(s):/usr/bin/ninja cmTC_f165f && [1/2] Building C object CMakeFiles/cmTC_f165f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f165f
 
 
 
 Performing C SOURCE FILE Test HAVE_NO_INTERPOSITION succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6e4dd && [1/2] Building C object CMakeFiles/cmTC_6e4dd.dir/src.c.o
-[2/2] Linking C executable cmTC_6e4dd
+Run Build Command(s):/usr/bin/ninja cmTC_80f45 && [1/2] Building C object CMakeFiles/cmTC_80f45.dir/src.c.o
+[2/2] Linking C executable cmTC_80f45
 
 
 Source file was:
@@ -494,8 +481,8 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_52805 && [1/2] Building C object CMakeFiles/cmTC_52805.dir/src.c.o
-[2/2] Linking C executable cmTC_52805
+Run Build Command(s):/usr/bin/ninja cmTC_576a4 && [1/2] Building C object CMakeFiles/cmTC_576a4.dir/src.c.o
+[2/2] Linking C executable cmTC_576a4
 
 
 Source file was:
@@ -507,8 +494,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_25bf7 && [1/2] Building C object CMakeFiles/cmTC_25bf7.dir/src.c.o
-[2/2] Linking C executable cmTC_25bf7
+Run Build Command(s):/usr/bin/ninja cmTC_fd127 && [1/2] Building C object CMakeFiles/cmTC_fd127.dir/src.c.o
+[2/2] Linking C executable cmTC_fd127
 
 
 Source file was:
@@ -520,8 +507,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_BUILTIN_CTZ succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_59138 && [1/2] Building C object CMakeFiles/cmTC_59138.dir/src.c.o
-[2/2] Linking C executable cmTC_59138
+Run Build Command(s):/usr/bin/ninja cmTC_d1be6 && [1/2] Building C object CMakeFiles/cmTC_d1be6.dir/src.c.o
+[2/2] Linking C executable cmTC_d1be6
 
 
 Source file was:
@@ -534,8 +521,8 @@ int main(void) {
 Performing C SOURCE FILE Test HAVE_BUILTIN_CTZLL succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7058e && [1/2] Building C object CMakeFiles/cmTC_7058e.dir/src.c.o
-[2/2] Linking C executable cmTC_7058e
+Run Build Command(s):/usr/bin/ninja cmTC_99529 && [1/2] Building C object CMakeFiles/cmTC_99529.dir/src.c.o
+[2/2] Linking C executable cmTC_99529
 
 
 Source file was:
@@ -548,8 +535,8 @@ int main(void) {
 Performing C SOURCE FILE Test HAVE_PTRDIFF_T succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_0d1a8 && [1/2] Building C object CMakeFiles/cmTC_0d1a8.dir/src.c.o
-[2/2] Linking C executable cmTC_0d1a8
+Run Build Command(s):/usr/bin/ninja cmTC_8101c && [1/2] Building C object CMakeFiles/cmTC_8101c.dir/src.c.o
+[2/2] Linking C executable cmTC_8101c
 
 
 Source file was:
@@ -562,8 +549,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_SSE2_INTRIN succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_41810 && [1/2] Building C object CMakeFiles/cmTC_41810.dir/src.c.o
-[2/2] Linking C executable cmTC_41810
+Run Build Command(s):/usr/bin/ninja cmTC_e6840 && [1/2] Building C object CMakeFiles/cmTC_e6840.dir/src.c.o
+[2/2] Linking C executable cmTC_e6840
 
 
 Source file was:
@@ -576,8 +563,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_SSSE3_INTRIN succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_b5fd4 && [1/2] Building C object CMakeFiles/cmTC_b5fd4.dir/src.c.o
-[2/2] Linking C executable cmTC_b5fd4
+Run Build Command(s):/usr/bin/ninja cmTC_200a5 && [1/2] Building C object CMakeFiles/cmTC_200a5.dir/src.c.o
+[2/2] Linking C executable cmTC_200a5
 
 
 Source file was:
@@ -593,8 +580,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_SSE42CRC_INLINE_ASM succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_22005 && [1/2] Building C object CMakeFiles/cmTC_22005.dir/src.c.o
-[2/2] Linking C executable cmTC_22005
+Run Build Command(s):/usr/bin/ninja cmTC_ce91c && [1/2] Building C object CMakeFiles/cmTC_ce91c.dir/src.c.o
+[2/2] Linking C executable cmTC_ce91c
 
 
 Source file was:
@@ -610,8 +597,8 @@ int main(void) {
 Performing C SOURCE FILE Test HAVE_SSE42CRC_INTRIN succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_0801d && [1/2] Building C object CMakeFiles/cmTC_0801d.dir/src.c.o
-[2/2] Linking C executable cmTC_0801d
+Run Build Command(s):/usr/bin/ninja cmTC_fe196 && [1/2] Building C object CMakeFiles/cmTC_fe196.dir/src.c.o
+[2/2] Linking C executable cmTC_fe196
 
 
 Source file was:
@@ -630,8 +617,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_SSE42CMPSTR_INTRIN succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_635a2 && [1/2] Building C object CMakeFiles/cmTC_635a2.dir/src.c.o
-[2/2] Linking C executable cmTC_635a2
+Run Build Command(s):/usr/bin/ninja cmTC_f2ffe && [1/2] Building C object CMakeFiles/cmTC_f2ffe.dir/src.c.o
+[2/2] Linking C executable cmTC_f2ffe
 
 
 Source file was:
@@ -647,8 +634,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_PCLMULQDQ_INTRIN succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_b4f96 && [1/2] Building C object CMakeFiles/cmTC_b4f96.dir/src.c.o
-[2/2] Linking C executable cmTC_b4f96
+Run Build Command(s):/usr/bin/ninja cmTC_e8b38 && [1/2] Building C object CMakeFiles/cmTC_e8b38.dir/src.c.o
+[2/2] Linking C executable cmTC_e8b38
 
 
 Source file was:
@@ -663,8 +650,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_AVX2_INTRIN succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_898d9 && [1/2] Building C object CMakeFiles/cmTC_898d9.dir/src.c.o
-[2/2] Linking C executable cmTC_898d9
+Run Build Command(s):/usr/bin/ninja cmTC_5d73f && [1/2] Building C object CMakeFiles/cmTC_5d73f.dir/src.c.o
+[2/2] Linking C executable cmTC_5d73f
 
 
 Source file was:
@@ -679,8 +666,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_ADDR succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_fb179 && [1/2] Building C object CMakeFiles/cmTC_fb179.dir/src.c.o
-[2/2] Linking C executable cmTC_fb179
+Run Build Command(s):/usr/bin/ninja cmTC_852db && [1/2] Building C object CMakeFiles/cmTC_852db.dir/src.c.o
+[2/2] Linking C executable cmTC_852db
 
 
 Source file was:
@@ -696,8 +683,8 @@ int main()
 Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a7bfd && [1/2] Building C object CMakeFiles/cmTC_a7bfd.dir/src.c.o
-[2/2] Linking C executable cmTC_a7bfd
+Run Build Command(s):/usr/bin/ninja cmTC_648bc && [1/2] Building C object CMakeFiles/cmTC_648bc.dir/src.c.o
+[2/2] Linking C executable cmTC_648bc
 
 
 Source file was:
@@ -713,16 +700,16 @@ int main()
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_dd151 && [1/2] Building C object CMakeFiles/cmTC_dd151.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_dd151
+Run Build Command(s):/usr/bin/ninja cmTC_8bdc3 && [1/2] Building C object CMakeFiles/cmTC_8bdc3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8bdc3
 
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_99770 && [1/2] Building C object CMakeFiles/cmTC_99770.dir/src.c.o
-[2/2] Linking C executable cmTC_99770
+Run Build Command(s):/usr/bin/ninja cmTC_92ef2 && [1/2] Building C object CMakeFiles/cmTC_92ef2.dir/src.c.o
+[2/2] Linking C executable cmTC_92ef2
 
 
 Source file was:
@@ -749,96 +736,96 @@ int main(void)
 Determining if the function dlopen exists in the dl; passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_66d75 && [1/2] Building C object CMakeFiles/cmTC_66d75.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_66d75
+Run Build Command(s):/usr/bin/ninja cmTC_da4f3 && [1/2] Building C object CMakeFiles/cmTC_da4f3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_da4f3
 
 
 
 Determining if the function gethostbyname exists in the c passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d1c10 && [1/2] Building C object CMakeFiles/cmTC_d1c10.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_d1c10
+Run Build Command(s):/usr/bin/ninja cmTC_8b2de && [1/2] Building C object CMakeFiles/cmTC_8b2de.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8b2de
 
 
 
 Determining if the function gethostname exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_07f45 && [1/2] Building C object CMakeFiles/cmTC_07f45.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_07f45
+Run Build Command(s):/usr/bin/ninja cmTC_3c87b && [1/2] Building C object CMakeFiles/cmTC_3c87b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3c87b
 
 
 
 Determining if the include file openssl/crypto.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_24ff3 && [1/2] Building C object CMakeFiles/cmTC_24ff3.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_24ff3
+Run Build Command(s):/usr/bin/ninja cmTC_fa167 && [1/2] Building C object CMakeFiles/cmTC_fa167.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fa167
 
 
 
 Determining if the include file openssl/err.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_63d08 && [1/2] Building C object CMakeFiles/cmTC_63d08.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_63d08
+Run Build Command(s):/usr/bin/ninja cmTC_c765b && [1/2] Building C object CMakeFiles/cmTC_c765b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c765b
 
 
 
 Determining if the include file openssl/pem.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6c666 && [1/2] Building C object CMakeFiles/cmTC_6c666.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_6c666
+Run Build Command(s):/usr/bin/ninja cmTC_9988b && [1/2] Building C object CMakeFiles/cmTC_9988b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9988b
 
 
 
 Determining if the include file openssl/rsa.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_c7feb && [1/2] Building C object CMakeFiles/cmTC_c7feb.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_c7feb
+Run Build Command(s):/usr/bin/ninja cmTC_6882c && [1/2] Building C object CMakeFiles/cmTC_6882c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6882c
 
 
 
 Determining if the include file openssl/ssl.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_062f7 && [1/2] Building C object CMakeFiles/cmTC_062f7.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_062f7
+Run Build Command(s):/usr/bin/ninja cmTC_1b8be && [1/2] Building C object CMakeFiles/cmTC_1b8be.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1b8be
 
 
 
 Determining if the include file openssl/x509.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_e7f61 && [1/2] Building C object CMakeFiles/cmTC_e7f61.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_e7f61
+Run Build Command(s):/usr/bin/ninja cmTC_70da6 && [1/2] Building C object CMakeFiles/cmTC_70da6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_70da6
 
 
 
 Determining if the include file openssl/rand.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_2fe1a && [1/2] Building C object CMakeFiles/cmTC_2fe1a.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_2fe1a
+Run Build Command(s):/usr/bin/ninja cmTC_56f3e && [1/2] Building C object CMakeFiles/cmTC_56f3e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_56f3e
 
 
 
 Determining if the function dlopen exists in the dl;OpenSSL::SSL;OpenSSL::Crypto passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_aaed1 && [1/2] Building C object CMakeFiles/cmTC_aaed1.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_aaed1
+Run Build Command(s):/usr/bin/ninja cmTC_a7890 && [1/2] Building C object CMakeFiles/cmTC_a7890.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a7890
 
 
 
 Performing C SOURCE FILE Test USE_UNIX_SOCKETS succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_18d15 && [1/2] Building C object CMakeFiles/cmTC_18d15.dir/src.c.o
-[2/2] Linking C executable cmTC_18d15
+Run Build Command(s):/usr/bin/ninja cmTC_c86da && [1/2] Building C object CMakeFiles/cmTC_c86da.dir/src.c.o
+[2/2] Linking C executable cmTC_c86da
 
 
 Source file was:
@@ -854,432 +841,432 @@ int main()
 Determining if files ;stdio.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_471ed && [1/2] Building C object CMakeFiles/cmTC_471ed.dir/HAVE_STDIO_H.c.o
-[2/2] Linking C executable cmTC_471ed
+Run Build Command(s):/usr/bin/ninja cmTC_f35c4 && [1/2] Building C object CMakeFiles/cmTC_f35c4.dir/HAVE_STDIO_H.c.o
+[2/2] Linking C executable cmTC_f35c4
 
 
 
 Determining if files stdio.h;inttypes.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_f297b && [1/2] Building C object CMakeFiles/cmTC_f297b.dir/HAVE_INTTYPES_H.c.o
-[2/2] Linking C executable cmTC_f297b
+Run Build Command(s):/usr/bin/ninja cmTC_926b5 && [1/2] Building C object CMakeFiles/cmTC_926b5.dir/HAVE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_926b5
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3a9d3 && [1/2] Building C object CMakeFiles/cmTC_3a9d3.dir/HAVE_SYS_IOCTL_H.c.o
-[2/2] Linking C executable cmTC_3a9d3
+Run Build Command(s):/usr/bin/ninja cmTC_49dc1 && [1/2] Building C object CMakeFiles/cmTC_49dc1.dir/HAVE_SYS_IOCTL_H.c.o
+[2/2] Linking C executable cmTC_49dc1
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_20b32 && [1/2] Building C object CMakeFiles/cmTC_20b32.dir/HAVE_SYS_PARAM_H.c.o
-[2/2] Linking C executable cmTC_20b32
+Run Build Command(s):/usr/bin/ninja cmTC_99ae7 && [1/2] Building C object CMakeFiles/cmTC_99ae7.dir/HAVE_SYS_PARAM_H.c.o
+[2/2] Linking C executable cmTC_99ae7
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_e0443 && [1/2] Building C object CMakeFiles/cmTC_e0443.dir/HAVE_SYS_POLL_H.c.o
-[2/2] Linking C executable cmTC_e0443
+Run Build Command(s):/usr/bin/ninja cmTC_42817 && [1/2] Building C object CMakeFiles/cmTC_42817.dir/HAVE_SYS_POLL_H.c.o
+[2/2] Linking C executable cmTC_42817
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d5e73 && [1/2] Building C object CMakeFiles/cmTC_d5e73.dir/HAVE_SYS_RESOURCE_H.c.o
-[2/2] Linking C executable cmTC_d5e73
+Run Build Command(s):/usr/bin/ninja cmTC_546e4 && [1/2] Building C object CMakeFiles/cmTC_546e4.dir/HAVE_SYS_RESOURCE_H.c.o
+[2/2] Linking C executable cmTC_546e4
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_533a7 && [1/2] Building C object CMakeFiles/cmTC_533a7.dir/HAVE_SYS_SELECT_H.c.o
-[2/2] Linking C executable cmTC_533a7
+Run Build Command(s):/usr/bin/ninja cmTC_c6144 && [1/2] Building C object CMakeFiles/cmTC_c6144.dir/HAVE_SYS_SELECT_H.c.o
+[2/2] Linking C executable cmTC_c6144
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6eb24 && [1/2] Building C object CMakeFiles/cmTC_6eb24.dir/HAVE_SYS_SOCKET_H.c.o
-[2/2] Linking C executable cmTC_6eb24
+Run Build Command(s):/usr/bin/ninja cmTC_58f89 && [1/2] Building C object CMakeFiles/cmTC_58f89.dir/HAVE_SYS_SOCKET_H.c.o
+[2/2] Linking C executable cmTC_58f89
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6cc67 && [1/2] Building C object CMakeFiles/cmTC_6cc67.dir/HAVE_SYS_STAT_H.c.o
-[2/2] Linking C executable cmTC_6cc67
+Run Build Command(s):/usr/bin/ninja cmTC_aaeb2 && [1/2] Building C object CMakeFiles/cmTC_aaeb2.dir/HAVE_SYS_STAT_H.c.o
+[2/2] Linking C executable cmTC_aaeb2
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_96123 && [1/2] Building C object CMakeFiles/cmTC_96123.dir/HAVE_SYS_TIME_H.c.o
-[2/2] Linking C executable cmTC_96123
+Run Build Command(s):/usr/bin/ninja cmTC_26ab6 && [1/2] Building C object CMakeFiles/cmTC_26ab6.dir/HAVE_SYS_TIME_H.c.o
+[2/2] Linking C executable cmTC_26ab6
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_2295d && [1/2] Building C object CMakeFiles/cmTC_2295d.dir/HAVE_SYS_UIO_H.c.o
-[2/2] Linking C executable cmTC_2295d
+Run Build Command(s):/usr/bin/ninja cmTC_f4e5f && [1/2] Building C object CMakeFiles/cmTC_f4e5f.dir/HAVE_SYS_UIO_H.c.o
+[2/2] Linking C executable cmTC_f4e5f
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_2caf4 && [1/2] Building C object CMakeFiles/cmTC_2caf4.dir/HAVE_SYS_UN_H.c.o
-[2/2] Linking C executable cmTC_2caf4
+Run Build Command(s):/usr/bin/ninja cmTC_0bbd0 && [1/2] Building C object CMakeFiles/cmTC_0bbd0.dir/HAVE_SYS_UN_H.c.o
+[2/2] Linking C executable cmTC_0bbd0
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_8ad95 && [1/2] Building C object CMakeFiles/cmTC_8ad95.dir/HAVE_SYS_XATTR_H.c.o
-[2/2] Linking C executable cmTC_8ad95
+Run Build Command(s):/usr/bin/ninja cmTC_b79c7 && [1/2] Building C object CMakeFiles/cmTC_b79c7.dir/HAVE_SYS_XATTR_H.c.o
+[2/2] Linking C executable cmTC_b79c7
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_10434 && [1/2] Building C object CMakeFiles/cmTC_10434.dir/HAVE_ALLOCA_H.c.o
-[2/2] Linking C executable cmTC_10434
+Run Build Command(s):/usr/bin/ninja cmTC_2667d && [1/2] Building C object CMakeFiles/cmTC_2667d.dir/HAVE_ALLOCA_H.c.o
+[2/2] Linking C executable cmTC_2667d
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_884c7 && [1/2] Building C object CMakeFiles/cmTC_884c7.dir/HAVE_ARPA_INET_H.c.o
-[2/2] Linking C executable cmTC_884c7
+Run Build Command(s):/usr/bin/ninja cmTC_b1552 && [1/2] Building C object CMakeFiles/cmTC_b1552.dir/HAVE_ARPA_INET_H.c.o
+[2/2] Linking C executable cmTC_b1552
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7ba15 && [1/2] Building C object CMakeFiles/cmTC_7ba15.dir/HAVE_ARPA_TFTP_H.c.o
-[2/2] Linking C executable cmTC_7ba15
+Run Build Command(s):/usr/bin/ninja cmTC_3e680 && [1/2] Building C object CMakeFiles/cmTC_3e680.dir/HAVE_ARPA_TFTP_H.c.o
+[2/2] Linking C executable cmTC_3e680
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a0783 && [1/2] Building C object CMakeFiles/cmTC_a0783.dir/HAVE_ASSERT_H.c.o
-[2/2] Linking C executable cmTC_a0783
+Run Build Command(s):/usr/bin/ninja cmTC_02f09 && [1/2] Building C object CMakeFiles/cmTC_02f09.dir/HAVE_ASSERT_H.c.o
+[2/2] Linking C executable cmTC_02f09
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_e8141 && [1/2] Building C object CMakeFiles/cmTC_e8141.dir/HAVE_ERRNO_H.c.o
-[2/2] Linking C executable cmTC_e8141
+Run Build Command(s):/usr/bin/ninja cmTC_a6b5a && [1/2] Building C object CMakeFiles/cmTC_a6b5a.dir/HAVE_ERRNO_H.c.o
+[2/2] Linking C executable cmTC_a6b5a
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_19097 && [1/2] Building C object CMakeFiles/cmTC_19097.dir/HAVE_FCNTL_H.c.o
-[2/2] Linking C executable cmTC_19097
+Run Build Command(s):/usr/bin/ninja cmTC_237d0 && [1/2] Building C object CMakeFiles/cmTC_237d0.dir/HAVE_FCNTL_H.c.o
+[2/2] Linking C executable cmTC_237d0
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_84683 && [1/2] Building C object CMakeFiles/cmTC_84683.dir/HAVE_IDN2_H.c.o
-[2/2] Linking C executable cmTC_84683
+Run Build Command(s):/usr/bin/ninja cmTC_f2f4f && [1/2] Building C object CMakeFiles/cmTC_f2f4f.dir/HAVE_IDN2_H.c.o
+[2/2] Linking C executable cmTC_f2f4f
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_86863 && [1/2] Building C object CMakeFiles/cmTC_86863.dir/HAVE_IFADDRS_H.c.o
-[2/2] Linking C executable cmTC_86863
+Run Build Command(s):/usr/bin/ninja cmTC_045db && [1/2] Building C object CMakeFiles/cmTC_045db.dir/HAVE_IFADDRS_H.c.o
+[2/2] Linking C executable cmTC_045db
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_4a965 && [1/2] Building C object CMakeFiles/cmTC_4a965.dir/HAVE_LIBGEN_H.c.o
-[2/2] Linking C executable cmTC_4a965
+Run Build Command(s):/usr/bin/ninja cmTC_4a9c8 && [1/2] Building C object CMakeFiles/cmTC_4a9c8.dir/HAVE_LIBGEN_H.c.o
+[2/2] Linking C executable cmTC_4a9c8
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7c443 && [1/2] Building C object CMakeFiles/cmTC_7c443.dir/HAVE_LOCALE_H.c.o
-[2/2] Linking C executable cmTC_7c443
+Run Build Command(s):/usr/bin/ninja cmTC_86086 && [1/2] Building C object CMakeFiles/cmTC_86086.dir/HAVE_LOCALE_H.c.o
+[2/2] Linking C executable cmTC_86086
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_c8ad5 && [1/2] Building C object CMakeFiles/cmTC_c8ad5.dir/HAVE_NET_IF_H.c.o
-[2/2] Linking C executable cmTC_c8ad5
+Run Build Command(s):/usr/bin/ninja cmTC_06c69 && [1/2] Building C object CMakeFiles/cmTC_06c69.dir/HAVE_NET_IF_H.c.o
+[2/2] Linking C executable cmTC_06c69
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_58eb8 && [1/2] Building C object CMakeFiles/cmTC_58eb8.dir/HAVE_NETDB_H.c.o
-[2/2] Linking C executable cmTC_58eb8
+Run Build Command(s):/usr/bin/ninja cmTC_5fe86 && [1/2] Building C object CMakeFiles/cmTC_5fe86.dir/HAVE_NETDB_H.c.o
+[2/2] Linking C executable cmTC_5fe86
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d7bc0 && [1/2] Building C object CMakeFiles/cmTC_d7bc0.dir/HAVE_NETINET_IN_H.c.o
-[2/2] Linking C executable cmTC_d7bc0
+Run Build Command(s):/usr/bin/ninja cmTC_eaa5f && [1/2] Building C object CMakeFiles/cmTC_eaa5f.dir/HAVE_NETINET_IN_H.c.o
+[2/2] Linking C executable cmTC_eaa5f
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3d53c && [1/2] Building C object CMakeFiles/cmTC_3d53c.dir/HAVE_NETINET_TCP_H.c.o
-[2/2] Linking C executable cmTC_3d53c
+Run Build Command(s):/usr/bin/ninja cmTC_adfad && [1/2] Building C object CMakeFiles/cmTC_adfad.dir/HAVE_NETINET_TCP_H.c.o
+[2/2] Linking C executable cmTC_adfad
 
 
 
 Determining if the include file linux/tcp.h exists passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_966d3 && [1/2] Building C object CMakeFiles/cmTC_966d3.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_966d3
+Run Build Command(s):/usr/bin/ninja cmTC_be61b && [1/2] Building C object CMakeFiles/cmTC_be61b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_be61b
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_c8ba2 && [1/2] Building C object CMakeFiles/cmTC_c8ba2.dir/HAVE_POLL_H.c.o
-[2/2] Linking C executable cmTC_c8ba2
+Run Build Command(s):/usr/bin/ninja cmTC_b6e57 && [1/2] Building C object CMakeFiles/cmTC_b6e57.dir/HAVE_POLL_H.c.o
+[2/2] Linking C executable cmTC_b6e57
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6f417 && [1/2] Building C object CMakeFiles/cmTC_6f417.dir/HAVE_PWD_H.c.o
-[2/2] Linking C executable cmTC_6f417
+Run Build Command(s):/usr/bin/ninja cmTC_84f77 && [1/2] Building C object CMakeFiles/cmTC_84f77.dir/HAVE_PWD_H.c.o
+[2/2] Linking C executable cmTC_84f77
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3bc1d && [1/2] Building C object CMakeFiles/cmTC_3bc1d.dir/HAVE_SETJMP_H.c.o
-[2/2] Linking C executable cmTC_3bc1d
+Run Build Command(s):/usr/bin/ninja cmTC_0f9d8 && [1/2] Building C object CMakeFiles/cmTC_0f9d8.dir/HAVE_SETJMP_H.c.o
+[2/2] Linking C executable cmTC_0f9d8
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_e320f && [1/2] Building C object CMakeFiles/cmTC_e320f.dir/HAVE_SIGNAL_H.c.o
-[2/2] Linking C executable cmTC_e320f
+Run Build Command(s):/usr/bin/ninja cmTC_47d21 && [1/2] Building C object CMakeFiles/cmTC_47d21.dir/HAVE_SIGNAL_H.c.o
+[2/2] Linking C executable cmTC_47d21
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_07ca0 && [1/2] Building C object CMakeFiles/cmTC_07ca0.dir/HAVE_STDBOOL_H.c.o
-[2/2] Linking C executable cmTC_07ca0
+Run Build Command(s):/usr/bin/ninja cmTC_707ec && [1/2] Building C object CMakeFiles/cmTC_707ec.dir/HAVE_STDBOOL_H.c.o
+[2/2] Linking C executable cmTC_707ec
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_5de0b && [1/2] Building C object CMakeFiles/cmTC_5de0b.dir/HAVE_STDLIB_H.c.o
-[2/2] Linking C executable cmTC_5de0b
+Run Build Command(s):/usr/bin/ninja cmTC_df022 && [1/2] Building C object CMakeFiles/cmTC_df022.dir/HAVE_STDLIB_H.c.o
+[2/2] Linking C executable cmTC_df022
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_5fb59 && [1/2] Building C object CMakeFiles/cmTC_5fb59.dir/HAVE_STRING_H.c.o
-[2/2] Linking C executable cmTC_5fb59
+Run Build Command(s):/usr/bin/ninja cmTC_670fa && [1/2] Building C object CMakeFiles/cmTC_670fa.dir/HAVE_STRING_H.c.o
+[2/2] Linking C executable cmTC_670fa
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_74976 && [1/2] Building C object CMakeFiles/cmTC_74976.dir/HAVE_STRINGS_H.c.o
-[2/2] Linking C executable cmTC_74976
+Run Build Command(s):/usr/bin/ninja cmTC_38a99 && [1/2] Building C object CMakeFiles/cmTC_38a99.dir/HAVE_STRINGS_H.c.o
+[2/2] Linking C executable cmTC_38a99
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_fe544 && [1/2] Building C object CMakeFiles/cmTC_fe544.dir/HAVE_TERMIO_H.c.o
-[2/2] Linking C executable cmTC_fe544
+Run Build Command(s):/usr/bin/ninja cmTC_e2ae0 && [1/2] Building C object CMakeFiles/cmTC_e2ae0.dir/HAVE_TERMIO_H.c.o
+[2/2] Linking C executable cmTC_e2ae0
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_71629 && [1/2] Building C object CMakeFiles/cmTC_71629.dir/HAVE_TERMIOS_H.c.o
-[2/2] Linking C executable cmTC_71629
+Run Build Command(s):/usr/bin/ninja cmTC_3589d && [1/2] Building C object CMakeFiles/cmTC_3589d.dir/HAVE_TERMIOS_H.c.o
+[2/2] Linking C executable cmTC_3589d
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7df40 && [1/2] Building C object CMakeFiles/cmTC_7df40.dir/HAVE_TIME_H.c.o
-[2/2] Linking C executable cmTC_7df40
+Run Build Command(s):/usr/bin/ninja cmTC_6d12f && [1/2] Building C object CMakeFiles/cmTC_6d12f.dir/HAVE_TIME_H.c.o
+[2/2] Linking C executable cmTC_6d12f
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_c614a && [1/2] Building C object CMakeFiles/cmTC_c614a.dir/HAVE_UTIME_H.c.o
-[2/2] Linking C executable cmTC_c614a
+Run Build Command(s):/usr/bin/ninja cmTC_f1aaa && [1/2] Building C object CMakeFiles/cmTC_f1aaa.dir/HAVE_UTIME_H.c.o
+[2/2] Linking C executable cmTC_f1aaa
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a6d10 && [1/2] Building C object CMakeFiles/cmTC_a6d10.dir/HAVE_DLFCN_H.c.o
-[2/2] Linking C executable cmTC_a6d10
+Run Build Command(s):/usr/bin/ninja cmTC_f6455 && [1/2] Building C object CMakeFiles/cmTC_f6455.dir/HAVE_DLFCN_H.c.o
+[2/2] Linking C executable cmTC_f6455
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_48b18 && [1/2] Building C object CMakeFiles/cmTC_48b18.dir/HAVE_MALLOC_H.c.o
-[2/2] Linking C executable cmTC_48b18
+Run Build Command(s):/usr/bin/ninja cmTC_24236 && [1/2] Building C object CMakeFiles/cmTC_24236.dir/HAVE_MALLOC_H.c.o
+[2/2] Linking C executable cmTC_24236
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h;memory.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_71261 && [1/2] Building C object CMakeFiles/cmTC_71261.dir/HAVE_MEMORY_H.c.o
-[2/2] Linking C executable cmTC_71261
+Run Build Command(s):/usr/bin/ninja cmTC_ea572 && [1/2] Building C object CMakeFiles/cmTC_ea572.dir/HAVE_MEMORY_H.c.o
+[2/2] Linking C executable cmTC_ea572
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h;memory.h;netinet/if_ether.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_49df1 && [1/2] Building C object CMakeFiles/cmTC_49df1.dir/HAVE_NETINET_IF_ETHER_H.c.o
-[2/2] Linking C executable cmTC_49df1
+Run Build Command(s):/usr/bin/ninja cmTC_e0236 && [1/2] Building C object CMakeFiles/cmTC_e0236.dir/HAVE_NETINET_IF_ETHER_H.c.o
+[2/2] Linking C executable cmTC_e0236
 
 
 
 Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;idn2.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h;memory.h;netinet/if_ether.h;stdint.h;sys/utsname.h exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a4b8f && [1/2] Building C object CMakeFiles/cmTC_a4b8f.dir/HAVE_SYS_UTSNAME_H.c.o
-[2/2] Linking C executable cmTC_a4b8f
+Run Build Command(s):/usr/bin/ninja cmTC_20ff8 && [1/2] Building C object CMakeFiles/cmTC_20ff8.dir/HAVE_SYS_UTSNAME_H.c.o
+[2/2] Linking C executable cmTC_20ff8
 
 
 
 Determining size of size_t passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7a9b8 && [1/2] Building C object CMakeFiles/cmTC_7a9b8.dir/SIZEOF_SIZE_T.c.o
-[2/2] Linking C executable cmTC_7a9b8
+Run Build Command(s):/usr/bin/ninja cmTC_64b86 && [1/2] Building C object CMakeFiles/cmTC_64b86.dir/SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_64b86
 
 
 
 Determining size of ssize_t passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_4e71b && [1/2] Building C object CMakeFiles/cmTC_4e71b.dir/SIZEOF_SSIZE_T.c.o
-[2/2] Linking C executable cmTC_4e71b
+Run Build Command(s):/usr/bin/ninja cmTC_dbdd9 && [1/2] Building C object CMakeFiles/cmTC_dbdd9.dir/SIZEOF_SSIZE_T.c.o
+[2/2] Linking C executable cmTC_dbdd9
 
 
 
 Determining size of long long passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_26ca3 && [1/2] Building C object CMakeFiles/cmTC_26ca3.dir/SIZEOF_LONG_LONG.c.o
-[2/2] Linking C executable cmTC_26ca3
+Run Build Command(s):/usr/bin/ninja cmTC_ce844 && [1/2] Building C object CMakeFiles/cmTC_ce844.dir/SIZEOF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_ce844
 
 
 
 Determining size of long passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_c3cc2 && [1/2] Building C object CMakeFiles/cmTC_c3cc2.dir/SIZEOF_LONG.c.o
-[2/2] Linking C executable cmTC_c3cc2
+Run Build Command(s):/usr/bin/ninja cmTC_c5096 && [1/2] Building C object CMakeFiles/cmTC_c5096.dir/SIZEOF_LONG.c.o
+[2/2] Linking C executable cmTC_c5096
 
 
 
 Determining size of short passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_56f79 && [1/2] Building C object CMakeFiles/cmTC_56f79.dir/SIZEOF_SHORT.c.o
-[2/2] Linking C executable cmTC_56f79
+Run Build Command(s):/usr/bin/ninja cmTC_3643c && [1/2] Building C object CMakeFiles/cmTC_3643c.dir/SIZEOF_SHORT.c.o
+[2/2] Linking C executable cmTC_3643c
 
 
 
 Determining size of int passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_8a80b && [1/2] Building C object CMakeFiles/cmTC_8a80b.dir/SIZEOF_INT.c.o
-[2/2] Linking C executable cmTC_8a80b
+Run Build Command(s):/usr/bin/ninja cmTC_9fbdc && [1/2] Building C object CMakeFiles/cmTC_9fbdc.dir/SIZEOF_INT.c.o
+[2/2] Linking C executable cmTC_9fbdc
 
 
 
 Determining size of long double passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_36dd3 && [1/2] Building C object CMakeFiles/cmTC_36dd3.dir/SIZEOF_LONG_DOUBLE.c.o
-[2/2] Linking C executable cmTC_36dd3
+Run Build Command(s):/usr/bin/ninja cmTC_b5729 && [1/2] Building C object CMakeFiles/cmTC_b5729.dir/SIZEOF_LONG_DOUBLE.c.o
+[2/2] Linking C executable cmTC_b5729
 
 
 
 Determining size of time_t passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_b4c12 && [1/2] Building C object CMakeFiles/cmTC_b4c12.dir/SIZEOF_TIME_T.c.o
-[2/2] Linking C executable cmTC_b4c12
+Run Build Command(s):/usr/bin/ninja cmTC_23b84 && [1/2] Building C object CMakeFiles/cmTC_23b84.dir/SIZEOF_TIME_T.c.o
+[2/2] Linking C executable cmTC_23b84
 
 
 
 Determining if the basename exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_31294 && [1/2] Building C object CMakeFiles/cmTC_31294.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_31294
+Run Build Command(s):/usr/bin/ninja cmTC_87136 && [1/2] Building C object CMakeFiles/cmTC_87136.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_87136
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1348,8 +1335,8 @@ int main(int argc, char** argv)
 Determining if the socket exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_ced05 && [1/2] Building C object CMakeFiles/cmTC_ced05.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_ced05
+Run Build Command(s):/usr/bin/ninja cmTC_1b4d3 && [1/2] Building C object CMakeFiles/cmTC_1b4d3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1b4d3
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1418,8 +1405,8 @@ int main(int argc, char** argv)
 Determining if the select exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_34a08 && [1/2] Building C object CMakeFiles/cmTC_34a08.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_34a08
+Run Build Command(s):/usr/bin/ninja cmTC_c7769 && [1/2] Building C object CMakeFiles/cmTC_c7769.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c7769
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1488,8 +1475,8 @@ int main(int argc, char** argv)
 Determining if the poll exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_4371c && [1/2] Building C object CMakeFiles/cmTC_4371c.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_4371c
+Run Build Command(s):/usr/bin/ninja cmTC_5fbe2 && [1/2] Building C object CMakeFiles/cmTC_5fbe2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5fbe2
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1558,8 +1545,8 @@ int main(int argc, char** argv)
 Determining if the strdup exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_4233d && [1/2] Building C object CMakeFiles/cmTC_4233d.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_4233d
+Run Build Command(s):/usr/bin/ninja cmTC_6e080 && [1/2] Building C object CMakeFiles/cmTC_6e080.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6e080
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1628,8 +1615,8 @@ int main(int argc, char** argv)
 Determining if the strstr exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_93719 && [1/2] Building C object CMakeFiles/cmTC_93719.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_93719
+Run Build Command(s):/usr/bin/ninja cmTC_0da8d && [1/2] Building C object CMakeFiles/cmTC_0da8d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0da8d
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1698,8 +1685,8 @@ int main(int argc, char** argv)
 Determining if the strtok_r exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3a663 && [1/2] Building C object CMakeFiles/cmTC_3a663.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_3a663
+Run Build Command(s):/usr/bin/ninja cmTC_28361 && [1/2] Building C object CMakeFiles/cmTC_28361.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_28361
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1768,8 +1755,8 @@ int main(int argc, char** argv)
 Determining if the strftime exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_61367 && [1/2] Building C object CMakeFiles/cmTC_61367.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_61367
+Run Build Command(s):/usr/bin/ninja cmTC_ce5b2 && [1/2] Building C object CMakeFiles/cmTC_ce5b2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ce5b2
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1838,8 +1825,8 @@ int main(int argc, char** argv)
 Determining if the uname exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_b2d00 && [1/2] Building C object CMakeFiles/cmTC_b2d00.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_b2d00
+Run Build Command(s):/usr/bin/ninja cmTC_b284a && [1/2] Building C object CMakeFiles/cmTC_b284a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b284a
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1908,8 +1895,8 @@ int main(int argc, char** argv)
 Determining if the strcasecmp exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_18ca5 && [1/2] Building C object CMakeFiles/cmTC_18ca5.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_18ca5
+Run Build Command(s):/usr/bin/ninja cmTC_087a8 && [1/2] Building C object CMakeFiles/cmTC_087a8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_087a8
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1978,8 +1965,8 @@ int main(int argc, char** argv)
 Determining if the alarm exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_2071c && [1/2] Building C object CMakeFiles/cmTC_2071c.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_2071c
+Run Build Command(s):/usr/bin/ninja cmTC_0b1d2 && [1/2] Building C object CMakeFiles/cmTC_0b1d2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0b1d2
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2048,8 +2035,8 @@ int main(int argc, char** argv)
 Determining if the getppid exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_c4cab && [1/2] Building C object CMakeFiles/cmTC_c4cab.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_c4cab
+Run Build Command(s):/usr/bin/ninja cmTC_dad0c && [1/2] Building C object CMakeFiles/cmTC_dad0c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dad0c
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2118,8 +2105,8 @@ int main(int argc, char** argv)
 Determining if the utimes exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_e84a8 && [1/2] Building C object CMakeFiles/cmTC_e84a8.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_e84a8
+Run Build Command(s):/usr/bin/ninja cmTC_54b08 && [1/2] Building C object CMakeFiles/cmTC_54b08.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_54b08
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2188,8 +2175,8 @@ int main(int argc, char** argv)
 Determining if the gettimeofday exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_4aaf2 && [1/2] Building C object CMakeFiles/cmTC_4aaf2.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_4aaf2
+Run Build Command(s):/usr/bin/ninja cmTC_1916b && [1/2] Building C object CMakeFiles/cmTC_1916b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1916b
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2258,8 +2245,8 @@ int main(int argc, char** argv)
 Determining if the inet_addr exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_efdf7 && [1/2] Building C object CMakeFiles/cmTC_efdf7.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_efdf7
+Run Build Command(s):/usr/bin/ninja cmTC_411bd && [1/2] Building C object CMakeFiles/cmTC_411bd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_411bd
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2328,8 +2315,8 @@ int main(int argc, char** argv)
 Determining if the sigsetjmp exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_478b3 && [1/2] Building C object CMakeFiles/cmTC_478b3.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_478b3
+Run Build Command(s):/usr/bin/ninja cmTC_387a8 && [1/2] Building C object CMakeFiles/cmTC_387a8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_387a8
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2398,8 +2385,8 @@ int main(int argc, char** argv)
 Determining if the getpwuid exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3140a && [1/2] Building C object CMakeFiles/cmTC_3140a.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_3140a
+Run Build Command(s):/usr/bin/ninja cmTC_cdfeb && [1/2] Building C object CMakeFiles/cmTC_cdfeb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cdfeb
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2468,8 +2455,8 @@ int main(int argc, char** argv)
 Determining if the getpwuid_r exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_b3615 && [1/2] Building C object CMakeFiles/cmTC_b3615.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_b3615
+Run Build Command(s):/usr/bin/ninja cmTC_45f28 && [1/2] Building C object CMakeFiles/cmTC_45f28.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_45f28
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2538,8 +2525,8 @@ int main(int argc, char** argv)
 Determining if the geteuid exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_80e86 && [1/2] Building C object CMakeFiles/cmTC_80e86.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_80e86
+Run Build Command(s):/usr/bin/ninja cmTC_b74b2 && [1/2] Building C object CMakeFiles/cmTC_b74b2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b74b2
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2608,8 +2595,8 @@ int main(int argc, char** argv)
 Determining if the usleep exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_799a6 && [1/2] Building C object CMakeFiles/cmTC_799a6.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_799a6
+Run Build Command(s):/usr/bin/ninja cmTC_92c6d && [1/2] Building C object CMakeFiles/cmTC_92c6d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_92c6d
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2678,8 +2665,8 @@ int main(int argc, char** argv)
 Determining if the utime exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_6d80a && [1/2] Building C object CMakeFiles/cmTC_6d80a.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_6d80a
+Run Build Command(s):/usr/bin/ninja cmTC_93119 && [1/2] Building C object CMakeFiles/cmTC_93119.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_93119
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2748,8 +2735,8 @@ int main(int argc, char** argv)
 Determining if the gmtime_r exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_4df45 && [1/2] Building C object CMakeFiles/cmTC_4df45.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_4df45
+Run Build Command(s):/usr/bin/ninja cmTC_3eadf && [1/2] Building C object CMakeFiles/cmTC_3eadf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3eadf
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2818,8 +2805,8 @@ int main(int argc, char** argv)
 Determining if the localtime_r exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_44659 && [1/2] Building C object CMakeFiles/cmTC_44659.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_44659
+Run Build Command(s):/usr/bin/ninja cmTC_e6877 && [1/2] Building C object CMakeFiles/cmTC_e6877.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e6877
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2888,8 +2875,8 @@ int main(int argc, char** argv)
 Determining if the gethostbyname exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7e452 && [1/2] Building C object CMakeFiles/cmTC_7e452.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_7e452
+Run Build Command(s):/usr/bin/ninja cmTC_bd68a && [1/2] Building C object CMakeFiles/cmTC_bd68a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bd68a
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -2958,8 +2945,8 @@ int main(int argc, char** argv)
 Determining if the gethostbyname_r exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_9a61f && [1/2] Building C object CMakeFiles/cmTC_9a61f.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_9a61f
+Run Build Command(s):/usr/bin/ninja cmTC_186bc && [1/2] Building C object CMakeFiles/cmTC_186bc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_186bc
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3028,8 +3015,8 @@ int main(int argc, char** argv)
 Determining if the signal exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_97ba3 && [1/2] Building C object CMakeFiles/cmTC_97ba3.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_97ba3
+Run Build Command(s):/usr/bin/ninja cmTC_0edb9 && [1/2] Building C object CMakeFiles/cmTC_0edb9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0edb9
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3098,8 +3085,8 @@ int main(int argc, char** argv)
 Determining if the SIGALRM exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_ae5fc && [1/2] Building C object CMakeFiles/cmTC_ae5fc.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_ae5fc
+Run Build Command(s):/usr/bin/ninja cmTC_8156a && [1/2] Building C object CMakeFiles/cmTC_8156a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8156a
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3168,8 +3155,8 @@ int main(int argc, char** argv)
 Determining if the strtoll exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_0efff && [1/2] Building C object CMakeFiles/cmTC_0efff.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_0efff
+Run Build Command(s):/usr/bin/ninja cmTC_0f5a4 && [1/2] Building C object CMakeFiles/cmTC_0f5a4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0f5a4
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3238,8 +3225,8 @@ int main(int argc, char** argv)
 Determining if the strerror_r exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_55118 && [1/2] Building C object CMakeFiles/cmTC_55118.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_55118
+Run Build Command(s):/usr/bin/ninja cmTC_78f6b && [1/2] Building C object CMakeFiles/cmTC_78f6b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_78f6b
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3308,7 +3295,7 @@ int main(int argc, char** argv)
 Determining if the siginterrupt exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a7ccf && [1/2] Building C object CMakeFiles/cmTC_a7ccf.dir/CheckSymbolExists.c.o
+Run Build Command(s):/usr/bin/ninja cmTC_e4dbf && [1/2] Building C object CMakeFiles/cmTC_e4dbf.dir/CheckSymbolExists.c.o
 /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:57:19: warning: 'siginterrupt' is deprecated: Use sigaction with SA_RESTART instead [-Wdeprecated-declarations]
   return ((int*)(&siginterrupt))[argc];
                   ^
@@ -3319,7 +3306,7 @@ Run Build Command(s):/usr/bin/ninja cmTC_a7ccf && [1/2] Building C object CMakeF
          __attribute__ ((__deprecated__ (msg)))
                          ^
 1 warning generated.
-[2/2] Linking C executable cmTC_a7ccf
+[2/2] Linking C executable cmTC_e4dbf
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3388,8 +3375,8 @@ int main(int argc, char** argv)
 Determining if the getaddrinfo exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a79ea && [1/2] Building C object CMakeFiles/cmTC_a79ea.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_a79ea
+Run Build Command(s):/usr/bin/ninja cmTC_a05cf && [1/2] Building C object CMakeFiles/cmTC_a05cf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a05cf
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3458,8 +3445,8 @@ int main(int argc, char** argv)
 Determining if the freeaddrinfo exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_23040 && [1/2] Building C object CMakeFiles/cmTC_23040.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_23040
+Run Build Command(s):/usr/bin/ninja cmTC_f7d04 && [1/2] Building C object CMakeFiles/cmTC_f7d04.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f7d04
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3528,8 +3515,8 @@ int main(int argc, char** argv)
 Determining if the pipe exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a92b0 && [1/2] Building C object CMakeFiles/cmTC_a92b0.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_a92b0
+Run Build Command(s):/usr/bin/ninja cmTC_0a159 && [1/2] Building C object CMakeFiles/cmTC_0a159.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0a159
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3598,8 +3585,8 @@ int main(int argc, char** argv)
 Determining if the ftruncate exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_73653 && [1/2] Building C object CMakeFiles/cmTC_73653.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_73653
+Run Build Command(s):/usr/bin/ninja cmTC_b228e && [1/2] Building C object CMakeFiles/cmTC_b228e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b228e
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3668,8 +3655,8 @@ int main(int argc, char** argv)
 Determining if the getprotobyname exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_76963 && [1/2] Building C object CMakeFiles/cmTC_76963.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_76963
+Run Build Command(s):/usr/bin/ninja cmTC_b1276 && [1/2] Building C object CMakeFiles/cmTC_b1276.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b1276
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3738,8 +3725,8 @@ int main(int argc, char** argv)
 Determining if the getpeername exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_52460 && [1/2] Building C object CMakeFiles/cmTC_52460.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_52460
+Run Build Command(s):/usr/bin/ninja cmTC_c9c41 && [1/2] Building C object CMakeFiles/cmTC_c9c41.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c9c41
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3808,8 +3795,8 @@ int main(int argc, char** argv)
 Determining if the getsockname exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7bac8 && [1/2] Building C object CMakeFiles/cmTC_7bac8.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_7bac8
+Run Build Command(s):/usr/bin/ninja cmTC_64867 && [1/2] Building C object CMakeFiles/cmTC_64867.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_64867
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3878,8 +3865,8 @@ int main(int argc, char** argv)
 Determining if the if_nametoindex exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_5ca47 && [1/2] Building C object CMakeFiles/cmTC_5ca47.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_5ca47
+Run Build Command(s):/usr/bin/ninja cmTC_0f36a && [1/2] Building C object CMakeFiles/cmTC_0f36a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0f36a
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -3948,8 +3935,8 @@ int main(int argc, char** argv)
 Determining if the getrlimit exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_75988 && [1/2] Building C object CMakeFiles/cmTC_75988.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_75988
+Run Build Command(s):/usr/bin/ninja cmTC_68afc && [1/2] Building C object CMakeFiles/cmTC_68afc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_68afc
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4018,8 +4005,8 @@ int main(int argc, char** argv)
 Determining if the setlocale exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_0c560 && [1/2] Building C object CMakeFiles/cmTC_0c560.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_0c560
+Run Build Command(s):/usr/bin/ninja cmTC_34a4b && [1/2] Building C object CMakeFiles/cmTC_34a4b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_34a4b
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4088,8 +4075,8 @@ int main(int argc, char** argv)
 Determining if the setrlimit exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_0b4e5 && [1/2] Building C object CMakeFiles/cmTC_0b4e5.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_0b4e5
+Run Build Command(s):/usr/bin/ninja cmTC_fdb87 && [1/2] Building C object CMakeFiles/cmTC_fdb87.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fdb87
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4158,8 +4145,8 @@ int main(int argc, char** argv)
 Determining if the fcntl exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_96a74 && [1/2] Building C object CMakeFiles/cmTC_96a74.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_96a74
+Run Build Command(s):/usr/bin/ninja cmTC_a5839 && [1/2] Building C object CMakeFiles/cmTC_a5839.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a5839
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4228,8 +4215,8 @@ int main(int argc, char** argv)
 Determining if the ioctl exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_31833 && [1/2] Building C object CMakeFiles/cmTC_31833.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_31833
+Run Build Command(s):/usr/bin/ninja cmTC_95ca7 && [1/2] Building C object CMakeFiles/cmTC_95ca7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_95ca7
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4298,8 +4285,8 @@ int main(int argc, char** argv)
 Determining if the setsockopt exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_e4c96 && [1/2] Building C object CMakeFiles/cmTC_e4c96.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_e4c96
+Run Build Command(s):/usr/bin/ninja cmTC_34e97 && [1/2] Building C object CMakeFiles/cmTC_34e97.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_34e97
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4368,8 +4355,8 @@ int main(int argc, char** argv)
 Determining if the inet_pton exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a21f5 && [1/2] Building C object CMakeFiles/cmTC_a21f5.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_a21f5
+Run Build Command(s):/usr/bin/ninja cmTC_e2a1f && [1/2] Building C object CMakeFiles/cmTC_e2a1f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e2a1f
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4438,8 +4425,8 @@ int main(int argc, char** argv)
 Determining if the fsetxattr exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_0b29b && [1/2] Building C object CMakeFiles/cmTC_0b29b.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_0b29b
+Run Build Command(s):/usr/bin/ninja cmTC_4836c && [1/2] Building C object CMakeFiles/cmTC_4836c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4836c
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4508,23 +4495,23 @@ int main(int argc, char** argv)
 Performing Curl Test HAVE_FSETXATTR_5 passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3d346 && [1/2] Building C object CMakeFiles/cmTC_3d346.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_3d346
+Run Build Command(s):/usr/bin/ninja cmTC_d3ab6 && [1/2] Building C object CMakeFiles/cmTC_d3ab6.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_d3ab6
 
 
 Determining size of sa_family_t passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_954ad && [1/2] Building C object CMakeFiles/cmTC_954ad.dir/SIZEOF_SA_FAMILY_T.c.o
-[2/2] Linking C executable cmTC_954ad
+Run Build Command(s):/usr/bin/ninja cmTC_73453 && [1/2] Building C object CMakeFiles/cmTC_73453.dir/SIZEOF_SA_FAMILY_T.c.o
+[2/2] Linking C executable cmTC_73453
 
 
 
 Determining if the sigaction exist passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3899a && [1/2] Building C object CMakeFiles/cmTC_3899a.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_3899a
+Run Build Command(s):/usr/bin/ninja cmTC_a3253 && [1/2] Building C object CMakeFiles/cmTC_a3253.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a3253
 
 
 File /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -4544,129 +4531,129 @@ int main(int argc, char** argv)
 Performing Curl Test HAVE_FCNTL_O_NONBLOCK passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_ad94f && [1/2] Building C object CMakeFiles/cmTC_ad94f.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_ad94f
+Run Build Command(s):/usr/bin/ninja cmTC_d99fe && [1/2] Building C object CMakeFiles/cmTC_d99fe.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_d99fe
 
 
 Performing Curl Test HAVE_IOCTL_FIONBIO passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_bb62a && [1/2] Building C object CMakeFiles/cmTC_bb62a.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_bb62a
+Run Build Command(s):/usr/bin/ninja cmTC_d9dd5 && [1/2] Building C object CMakeFiles/cmTC_d9dd5.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_d9dd5
 
 
 Performing Curl Test HAVE_IOCTL_SIOCGIFADDR passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_62d84 && [1/2] Building C object CMakeFiles/cmTC_62d84.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_62d84
+Run Build Command(s):/usr/bin/ninja cmTC_bbf95 && [1/2] Building C object CMakeFiles/cmTC_bbf95.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_bbf95
 
 
 Performing Curl Test TIME_WITH_SYS_TIME passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3fe1f && [1/2] Building C object CMakeFiles/cmTC_3fe1f.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_3fe1f
+Run Build Command(s):/usr/bin/ninja cmTC_a14ec && [1/2] Building C object CMakeFiles/cmTC_a14ec.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_a14ec
 
 
 Performing Curl Test HAVE_GETHOSTBYNAME_R_6 passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_1fabe && [1/2] Building C object CMakeFiles/cmTC_1fabe.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_1fabe
+Run Build Command(s):/usr/bin/ninja cmTC_cbaca && [1/2] Building C object CMakeFiles/cmTC_cbaca.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_cbaca
 
 
 Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d38da && [1/2] Building C object CMakeFiles/cmTC_d38da.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_d38da
+Run Build Command(s):/usr/bin/ninja cmTC_04539 && [1/2] Building C object CMakeFiles/cmTC_04539.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_04539
 
 
 Performing Curl Test HAVE_IN_ADDR_T passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a4ad4 && [1/2] Building C object CMakeFiles/cmTC_a4ad4.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_a4ad4
+Run Build Command(s):/usr/bin/ninja cmTC_7c263 && [1/2] Building C object CMakeFiles/cmTC_7c263.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_7c263
 
 
 Performing Curl Test HAVE_BOOL_T passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_ab123 && [1/2] Building C object CMakeFiles/cmTC_ab123.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_ab123
+Run Build Command(s):/usr/bin/ninja cmTC_4d752 && [1/2] Building C object CMakeFiles/cmTC_4d752.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_4d752
 
 
 Performing Curl Test STDC_HEADERS passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_2290b && [1/2] Building C object CMakeFiles/cmTC_2290b.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_2290b
+Run Build Command(s):/usr/bin/ninja cmTC_9e8d0 && [1/2] Building C object CMakeFiles/cmTC_9e8d0.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_9e8d0
 
 
 Performing Curl Test HAVE_FILE_OFFSET_BITS passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_79dfe && [1/2] Building C object CMakeFiles/cmTC_79dfe.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_79dfe
+Run Build Command(s):/usr/bin/ninja cmTC_ce852 && [1/2] Building C object CMakeFiles/cmTC_ce852.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_ce852
 
 
 Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d806d && [1/2] Building C object CMakeFiles/cmTC_d806d.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_d806d
+Run Build Command(s):/usr/bin/ninja cmTC_ca9c3 && [1/2] Building C object CMakeFiles/cmTC_ca9c3.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_ca9c3
 
 
 Performing Curl Test HAVE_VARIADIC_MACROS_GCC passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d51dc && [1/2] Building C object CMakeFiles/cmTC_d51dc.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_d51dc
+Run Build Command(s):/usr/bin/ninja cmTC_70815 && [1/2] Building C object CMakeFiles/cmTC_70815.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_70815
 
 
 Determining size of off_t passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_60acf && [1/2] Building C object CMakeFiles/cmTC_60acf.dir/SIZEOF_OFF_T.c.o
-[2/2] Linking C executable cmTC_60acf
+Run Build Command(s):/usr/bin/ninja cmTC_741b2 && [1/2] Building C object CMakeFiles/cmTC_741b2.dir/SIZEOF_OFF_T.c.o
+[2/2] Linking C executable cmTC_741b2
 
 
 
 Determining size of curl_off_t passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_3d920 && [1/2] Building C object CMakeFiles/cmTC_3d920.dir/SIZEOF_CURL_OFF_T.c.o
-[2/2] Linking C executable cmTC_3d920
+Run Build Command(s):/usr/bin/ninja cmTC_b9f9e && [1/2] Building C object CMakeFiles/cmTC_b9f9e.dir/SIZEOF_CURL_OFF_T.c.o
+[2/2] Linking C executable cmTC_b9f9e
 
 
 
 Performing Curl Test HAVE_POSIX_STRERROR_R passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_4db53 && [1/2] Building C object CMakeFiles/cmTC_4db53.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_4db53
+Run Build Command(s):/usr/bin/ninja cmTC_4f8fc && [1/2] Building C object CMakeFiles/cmTC_4f8fc.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_4f8fc
 
 
 Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7aa9f && [1/2] Building C object CMakeFiles/cmTC_7aa9f.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_7aa9f
+Run Build Command(s):/usr/bin/ninja cmTC_85d2a && [1/2] Building C object CMakeFiles/cmTC_85d2a.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_85d2a
 
 
 Performing Curl Test HAVE_BUILTIN_AVAILABLE passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_d85a2 && [1/2] Building C object CMakeFiles/cmTC_d85a2.dir/CurlTests.c.o
-[2/2] Linking C executable cmTC_d85a2
+Run Build Command(s):/usr/bin/ninja cmTC_19025 && [1/2] Building C object CMakeFiles/cmTC_19025.dir/CurlTests.c.o
+[2/2] Linking C executable cmTC_19025
 
 
 Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_91c5e && [1/2] Building C object CMakeFiles/cmTC_91c5e.dir/src.c.o
-[2/2] Linking C static library libcmTC_91c5e.a
+Run Build Command(s):/usr/bin/ninja cmTC_f9dcd && [1/2] Building C object CMakeFiles/cmTC_f9dcd.dir/src.c.o
+[2/2] Linking C static library libcmTC_f9dcd.a
 
 
 Source file was:
@@ -4680,8 +4667,8 @@ int main(void) {
 Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_b2853 && [1/2] Building C object CMakeFiles/cmTC_b2853.dir/src.c.o
-[2/2] Linking C static library libcmTC_b2853.a
+Run Build Command(s):/usr/bin/ninja cmTC_af708 && [1/2] Building C object CMakeFiles/cmTC_af708.dir/src.c.o
+[2/2] Linking C static library libcmTC_af708.a
 
 
 Source file was:
@@ -4706,8 +4693,8 @@ Source file was:
 Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_57d9d && [1/2] Building C object CMakeFiles/cmTC_57d9d.dir/src.c.o
-[2/2] Linking C static library libcmTC_57d9d.a
+Run Build Command(s):/usr/bin/ninja cmTC_074a8 && [1/2] Building C object CMakeFiles/cmTC_074a8.dir/src.c.o
+[2/2] Linking C static library libcmTC_074a8.a
 
 
 Source file was:
@@ -4721,8 +4708,8 @@ int main(void) {
 Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_775e3 && [1/2] Building C object CMakeFiles/cmTC_775e3.dir/src.c.o
-[2/2] Linking C static library libcmTC_775e3.a
+Run Build Command(s):/usr/bin/ninja cmTC_f2b69 && [1/2] Building C object CMakeFiles/cmTC_f2b69.dir/src.c.o
+[2/2] Linking C static library libcmTC_f2b69.a
 
 
 Source file was:
@@ -4747,8 +4734,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_MSG_NOSIGNAL succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_00a67 && [1/2] Building C object CMakeFiles/cmTC_00a67.dir/src.c.o
-[2/2] Linking C static library libcmTC_00a67.a
+Run Build Command(s):/usr/bin/ninja cmTC_63a0c && [1/2] Building C object CMakeFiles/cmTC_63a0c.dir/src.c.o
+[2/2] Linking C static library libcmTC_63a0c.a
 
 
 Source file was:
@@ -4763,8 +4750,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_b0660 && [1/2] Building C object CMakeFiles/cmTC_b0660.dir/src.c.o
-[2/2] Linking C static library libcmTC_b0660.a
+Run Build Command(s):/usr/bin/ninja cmTC_65252 && [1/2] Building C object CMakeFiles/cmTC_65252.dir/src.c.o
+[2/2] Linking C static library libcmTC_65252.a
 
 
 Source file was:
@@ -4784,16 +4771,16 @@ int main(void) {
 Determining size of struct sockaddr_storage passed with the following output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_01134 && [1/2] Building C object CMakeFiles/cmTC_01134.dir/SIZEOF_STRUCT_SOCKADDR_STORAGE.c.o
-[2/2] Linking C static library libcmTC_01134.a
+Run Build Command(s):/usr/bin/ninja cmTC_f7d0c && [1/2] Building C object CMakeFiles/cmTC_f7d0c.dir/SIZEOF_STRUCT_SOCKADDR_STORAGE.c.o
+[2/2] Linking C static library libcmTC_f7d0c.a
 
 
 
 Performing C SOURCE FILE Test HAVE_POLL_FINE succeeded with the following compile output:
 Change Dir: /home/aidan/Projects/botdogs-scout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_7a2b4 && [1/2] Building C object CMakeFiles/cmTC_7a2b4.dir/src.c.o
-[2/2] Linking C executable cmTC_7a2b4
+Run Build Command(s):/usr/bin/ninja cmTC_ede27 && [1/2] Building C object CMakeFiles/cmTC_ede27.dir/src.c.o
+[2/2] Linking C executable cmTC_ede27
 
 
 ...and run output:
