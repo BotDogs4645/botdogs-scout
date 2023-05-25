@@ -4,6 +4,7 @@
 #include "cpr/api.h"
 #include <functional>
 #include <iostream>
+#include <regex>
 #include <vector>
 #include <string>
 #include <future>
@@ -54,11 +55,11 @@ class TBA_Training_API : public TBA {
   public:
     TBA_Training_API(string api_key) : TBA(api_key) {}
 
-    basic_json<> to_MATLAB_Serializable(int teamNum, std::vector<string> eventCodes, string alliance) {
+    basic_json<> toClassificationSerializable(int teamNum, std::vector<string> eventCodes, string alliance) {
       basic_json<> ret = json::array();
       std::vector<basic_json<>> events;
       for(string ptr : eventCodes) {
-        events.push_back(getMatches(4645, ptr));
+        events.push_back(getMatches(teamNum, ptr));
       }
       for(int i = 0; i < events.size(); i++) {
         for(int j = 0; j < events[i].size(); j++) {
@@ -73,11 +74,23 @@ class TBA_Training_API : public TBA {
           temp.emplace("autoChargeStationRobot1", events[i][j]["score_breakdown"][alliance]["autoChargeStationRobot1"]);
           temp.emplace("autoChargeStationRobot2", events[i][j]["score_breakdown"][alliance]["autoChargeStationRobot2"]);
           temp.emplace("autoChargeStationRobot3", events[i][j]["score_breakdown"][alliance]["autoChargeStationRobot3"]);
+          temp.emplace("teleopPoints",events[i][j]["score_breakdown"][alliance]["teleopPoints"]);
+          temp.emplace("chargeStationPoints", events[i][j]["score_breakdown"][alliance]["totalChargeStationPoints"]);
+          temp.emplace("autoPoints", events[i][j]["score_breakdown"][alliance]["autoPoints"]);
+          temp.emplace("autoNumPieces", events[i][j]["score_breakdown"][alliance]["autoGamePieceCount"]);
+          temp.emplace("autoPieceScore", events[i][j]["score_breakdown"][alliance]["autoGamePiecePoints"]);
+          temp.emplace("autoMobilityScore", events[i][j]["score_breakdown"][alliance]["autoMobilityPoints"]);
+          temp.emplace("chargeStationState", events[i][j]["score_breakdown"][alliance]["autoBridgeState"]);
+          
 
           ret.push_back(temp);
         }
       }
       return ret;
+   }
+
+   basic_json<> toRegressionSerializable(int teamNum, std::vector<basic_json<>> prevMatches, string alliance) {
+      
    }
 
 };
