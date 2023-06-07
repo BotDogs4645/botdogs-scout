@@ -11,4 +11,3 @@ WIP Scouting App
 5) copy and paste that key back into the TBA key field in the application
 
 
-# botdogs-scout
