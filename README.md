@@ -1,17 +1,13 @@
 # botdogs_scout
 
-A new Flutter project.
+WIP Scouting App
 
-## Getting Started
+## Instructions for getting a new TBA Key
 
-This project is a starting point for a Flutter application.
+1) Go to your TBA account page [here](https://www.thebluealliance.com/account/)
+2) If you havent signed in or created an account, do so on this page
+3) When in the account overview page, scroll to the Read API section
+4) Enter a key descriptor. This could be anything, but it is recommended to name it something usefull (i.e. scouting-app)
+5) copy and paste that key back into the TBA key field in the application
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# botdogs-scout
