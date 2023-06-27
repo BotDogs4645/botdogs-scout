@@ -1,7 +1,10 @@
+use axum::Json;
+use leptos::server;
+
 #[cfg(feature = "ssr")]
 #[tokio::main]
 async fn main() {
-    use axum::{extract::Extension, routing::post, Router};
+    use axum::{extract::Extension, routing::post, routing::get, Router};
     use leptos::*;
     use leptos_axum::{generate_route_list, LeptosRoutes};
     use botdogs_scout::app::*;
@@ -35,6 +38,7 @@ async fn main() {
         .await
         .unwrap();
 }
+
 
 #[cfg(not(feature = "ssr"))]
 pub fn main() {
