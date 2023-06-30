@@ -1,22 +1,7 @@
-use std::path;
-
 use leptos::*;
 
-#[path = "../../lib/navbar.rs"] mod navbar;
-use navbar::*;
-
 #[component]
-pub fn HomePage(cx: Scope) -> impl IntoView {
-
-    view! { cx,
-        <div>
-            <Navbar/>
-        </div>
-    }
-}
-
-#[component]
-fn Navbar(cx: Scope) -> impl IntoView {
+pub fn Navbar(cx: Scope) -> impl IntoView {
 
     
   view! { cx,
