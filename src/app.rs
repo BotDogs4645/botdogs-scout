@@ -6,7 +6,7 @@ use leptos_router::*;
 use home::*;
 
 #[path = "pages/auth/auth.rs"] mod auth;
-use auth::*;
+
 
 
 #[component]

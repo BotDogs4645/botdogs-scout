@@ -4,7 +4,7 @@ use leptos::*;
 use navbar::*;
 
 mod info;
-use info::*;
+
 
 #[component]
 pub fn HomePage(cx: Scope) -> impl IntoView {
