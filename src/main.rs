@@ -12,7 +12,7 @@ async fn main() {
     use std::sync::Arc;
 
     
-    let _conn = db::get_db().await.expect("Couldnt connect to db");
+    //let _conn = db::get_db().await.expect("Couldnt connect to db");
 
     simple_logger::init_with_level(log::Level::Debug).expect("couldn't initialize logging");
 
