@@ -25,7 +25,7 @@ pub fn InfoCard<F, IV>(
   IV: IntoView  {
 
   view! { cx,
-    <div class="bg-white rounded-lg w-auto h-80 ">
+    <div class="bg-red-400 rounded-lg w-auto h-80 ">
       <p class="text-center p-1">{title}</p>
       {data()}
     </div>
