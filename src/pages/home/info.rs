@@ -1,33 +1,47 @@
-
+use http::Request;
 use leptos::*;
+use std::env;
+
+#[path = "../../lib/tba.rs"]
+mod tba;
+use tba::*;
 
 #[component]
-pub fn InfoContainer(
-  cx: Scope,
-  children: Children
-) -> impl IntoView {
+pub fn RankCard(cx: Scope) -> impl IntoView {
 
-
-    view! { cx,
-        <div class="flex flex-wrap justify-evenly gap-2 grid-cols-3 overflow-y-auto">
-          {children(cx)}
-        </div>
-    }    
-}
-
-#[component]
-pub fn InfoCard<F, IV>(
-  cx: Scope,
-  title: &'static str,
-  data: F
-) -> impl IntoView where
-  F: Fn() -> IV,
-  IV: IntoView  {
-
-  view! { cx,
-    <div class="bg-red-400 rounded-lg w-auto h-80 ">
-      <p class="text-center p-1">{title}</p>
-      {data()}
+  let tba_rankings = create_resource(cx, || (), |_| async move {
+    get_tba_status().await.unwrap()
+  });
+  let result = move || {
+    tba_rankings
+      .read(cx)
+      .map(|value| format!("TBA Status: {value:?}"))
+      .unwrap_or_else(|| "Loading...".into())
+  };
+  
+  view! {
+    cx,
+    <div class="bg-white rounded-lg justify-center text-center">
+      <div class="p-4">
+        <h1 class="text-2xl">"Rankings"</h1>
+        {result}
+      </div>
     </div>
   }
+}
+
+pub fn TeamCard(cx: Scope) -> impl IntoView {
+
+    view! {
+      cx,
+      
+    }
+}
+
+pub fn MatchCard(cx: Scope) -> impl IntoView {
+
+    view! {
+      cx,
+      
+    }
 }

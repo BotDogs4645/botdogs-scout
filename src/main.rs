@@ -10,9 +10,9 @@ async fn main() {
     use botdogs_scout::app::*;
     use botdogs_scout::fileserv::file_and_error_handler;
     use std::sync::Arc;
-
     
-    //let _conn = db::get_db().await.expect("Couldnt connect to db");
+    
+    
 
     simple_logger::init_with_level(log::Level::Debug).expect("couldn't initialize logging");
 
