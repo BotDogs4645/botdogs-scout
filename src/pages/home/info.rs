@@ -10,7 +10,7 @@ use tba::*;
 pub fn RankCard(cx: Scope) -> impl IntoView {
 
   let tba_rankings = create_resource(cx, || (), |_| async move {
-    get_tba_status().await.unwrap()
+    get_match_rankings("2023ilch".to_string()).await.unwrap_or(vec![("N/A".to_string(),"N/A".to_string())])
   });
   let result = move || {
     tba_rankings
