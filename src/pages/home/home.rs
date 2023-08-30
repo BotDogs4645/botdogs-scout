@@ -15,7 +15,7 @@ pub fn HomePage(cx: Scope) -> impl IntoView {
         <div class="flex flex-row bg-gray-100 h-screen">
             <Navbar/>
             <div class="flex flex-row p-4 flex-grow">
-                <div class="p-6 flex-grow"><RankCard/></div>
+                <div class="p-6 flex-grow"><TeamCard team_number=4645/></div>
                 <div class="p-6 flex-grow"><RankCard/></div>
                 <div class="p-6 flex-grow"><RankCard/></div>
             </div>

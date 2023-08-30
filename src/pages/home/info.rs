@@ -21,21 +21,38 @@ pub fn RankCard(cx: Scope) -> impl IntoView {
   
   view! {
     cx,
-    <div class="bg-white rounded-lg justify-center text-center">
+    <div class="bg-white rounded-lg justify-center text-center shadow-lg">
       <div class="p-4">
-        <h1 class="text-2xl">"Rankings"</h1>
+        <h1 class="text-2xl"><b>"Rankings"</b></h1>
         {result}
       </div>
     </div>
   }
 }
+#[component]
+pub fn TeamCard(cx: Scope, team_number: i32) -> impl IntoView {
 
-pub fn TeamCard(cx: Scope) -> impl IntoView {
+  let team_name = create_resource(cx, || (), move |_| async move  {
+    get_team_name(team_number).await.unwrap_or("Loading".into())
+  });
 
-    view! {
-      cx,
-      
-    }
+  let name_val = move || {
+    team_name
+      .read(cx)
+      .map(|value| format!("{team:?}", team=value))
+      .unwrap_or_else(|| "Loading...".into())
+  };
+
+  view! {
+    cx,
+    <div class="bg-white rounded-lg justify-center text-center shadow-lg">
+      <div class="p-4">
+        <h1 class="text-2xl"><b>"My Team"</b></h1>
+        {format!("#{num}: ", num=team_number)}
+        {name_val} 
+      </div>
+    </div>
+  }
 }
 
 pub fn MatchCard(cx: Scope) -> impl IntoView {
