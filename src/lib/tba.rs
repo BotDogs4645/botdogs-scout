@@ -1,4 +1,4 @@
-use std::env;
+use std::{env, collections::HashMap};
 
 use leptos::leptos_dom::console_log;
 use reqwest::{Client, Response};
@@ -13,7 +13,7 @@ struct Ranking {
     rank: i32,
     team_key: String,
     matches_played: i32,
-    qual_average: f32,
+    qual_average: Option<f32>,
     record: Record,
     sort_orders: Vec<f32>,
     dq: i32,
@@ -25,7 +25,9 @@ struct Record {
     ties: i32,
 }
 
-pub async fn get_match_rankings(event_code: String) -> Result<Vec<(String, String)>, reqwest::Error> {
+pub async fn get_match_rankings(event_code: String) -> Result<HashMap<String, i32>, reqwest::Error> {
+    let mut ret: HashMap<String, i32> = HashMap::new();
+
     let client = Client::builder()
         .build()?
         .get(format!("https://www.thebluealliance.com/api/v3/event/{code}/rankings", code=event_code))
@@ -35,7 +37,14 @@ pub async fn get_match_rankings(event_code: String) -> Result<Vec<(String, Strin
 
     let body = client.text().await?;
 
-    Ok(vec![("".to_string(),"".to_string())])
+    let resp_deserialized: EventRankings = serde_json::from_str(&body).unwrap();
+
+    for ranking in resp_deserialized.rankings {
+        ret.insert(ranking.team_key, ranking.rank);
+    }
+
+    Ok(ret)
+
 }
 
 #[derive(Serialize, Deserialize)]
