@@ -7,7 +7,9 @@ mod tba;
 use tba::*;
 
 #[component]
-pub fn RankCard(cx: Scope) -> impl IntoView {
+pub fn RankCard(cx: Scope, team: String) -> impl IntoView {
+
+  let team = "frc".to_string() + &team;
 
   let tba_rankings = create_resource(cx, || (), |_| async move {
     get_match_rankings("2023ilch".to_string()).await.unwrap_or(HashMap::new())
@@ -15,7 +17,7 @@ pub fn RankCard(cx: Scope) -> impl IntoView {
   let result = move || {
     tba_rankings
       .read(cx)
-      .map(|value| format!("TBA Status: {value:?}"))
+      .map(|value| format!("Team Rank: {rank}", rank=value.get(&team).unwrap_or(&-1)))
       .unwrap_or_else(|| "Loading...".into())
   };
   
@@ -30,10 +32,10 @@ pub fn RankCard(cx: Scope) -> impl IntoView {
   }
 }
 #[component]
-pub fn TeamCard(cx: Scope, team_number: i32) -> impl IntoView {
+pub fn TeamCard(cx: Scope, team_number: String) -> impl IntoView {
 
-  let team_name = create_resource(cx, || (), move |_| async move  {
-    get_team_name(team_number).await.unwrap_or("Loading".into())
+  let team_name = create_resource(cx, || (),  |_| async move {
+    get_team_name().await.unwrap_or("Loading".to_string())
   });
 
   let name_val = move || {

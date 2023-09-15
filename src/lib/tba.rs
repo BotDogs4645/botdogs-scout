@@ -77,14 +77,14 @@ struct HomeChampionship {
     division_code: String,
 }
 
-pub async fn get_team_name(team_number: i32) -> Result<String, reqwest::Error> {
+pub async fn get_team_name(team_number: &String) -> Result<String, reqwest::Error> {
     let resp_deserialized = get_team_info(team_number).await?;
 
     Ok(resp_deserialized.nickname.unwrap_or_else(|| resp_deserialized.Error.unwrap()).to_string())
 }
 
 
-async fn get_team_info(team_number: i32) -> Result<TeamInfo, reqwest::Error> {
+async fn get_team_info(team_number: &String) -> Result<TeamInfo, reqwest::Error> {
     let client = Client::builder()
         .build()?
         .get(&format!("https://www.thebluealliance.com/api/v3/team/frc{team_number}", team_number=team_number))
