@@ -11,8 +11,6 @@ async fn main() {
     use botdogs_scout::fileserv::file_and_error_handler;
     use std::sync::Arc;
     
-    
-    
 
     simple_logger::init_with_level(log::Level::Debug).expect("couldn't initialize logging");
 
@@ -46,6 +44,7 @@ async fn main() {
 
 #[cfg(not(feature = "ssr"))]
 pub fn main() {
+
     // no client-side main function
     // unless we want this to work with e.g., Trunk for a purely client-side app
     // see lib.rs for hydration function instead

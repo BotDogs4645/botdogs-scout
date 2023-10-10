@@ -1,6 +1,6 @@
 use http::Request;
 use leptos::*;
-use std::{env, collections::HashMap};
+use std::{env, collections::HashMap, sync::Arc};
 
 #[path = "../../lib/tba.rs"]
 mod tba;
@@ -34,9 +34,18 @@ pub fn RankCard(cx: Scope, team: String) -> impl IntoView {
 #[component]
 pub fn TeamCard(cx: Scope, team_number: String) -> impl IntoView {
 
-  let team_name = create_resource(cx, || (),  |_| async move {
-    get_team_name().await.unwrap_or("Loading".to_string())
+  // i know the variable names are garbage, its bc of stupid deep copy vs shallow copy shit and bc
+  // of the async closure moving the memory adress to a different thread :(
+
+  let team_id = team_number.clone();
+
+  let team_name = create_resource(cx, || (),   move |_| {
+    let team_number = team_number.clone();
+    async move {
+      get_team_name(team_number).await.unwrap_or("Loading".to_string())
+    }
   });
+  
 
   let name_val = move || {
     team_name
@@ -50,17 +59,33 @@ pub fn TeamCard(cx: Scope, team_number: String) -> impl IntoView {
     <div class="bg-white rounded-lg justify-center text-center shadow-lg">
       <div class="p-4">
         <h1 class="text-2xl"><b>"My Team"</b></h1>
-        {format!("#{num}: ", num=team_number)}
+        {format!("#{num}: ", num=team_id)}
         {name_val} 
       </div>
     </div>
   }
 }
 
-pub fn MatchCard(cx: Scope) -> impl IntoView {
+pub fn MatchCard(cx: Scope, event_code: String) -> impl IntoView {
+
+  let curr_match_future = create_resource(cx, || (), move |_| {
+    get_current_match()
+  });
+
+  let curr_match = move || {
+    curr_match_future
+      .read(cx)
+      .map(|value| format!())
+      .unwrap_or_else(|| "Loading...".into())
+  };
 
     view! {
       cx,
-      
+      <div class="bg-white rounded-lg justify-center text-center shadow-lg">
+        <div class="p-4">
+          <h1 class="text-2xl"><b>"Match"</b></h1>
+          {curr_match}"/"{total_matches}
+        </div>
+      </div>
     }
 }
