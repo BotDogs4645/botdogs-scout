@@ -1,5 +1,5 @@
 use http::Request;
-use leptos::*;
+use leptos::{*, ev::cuechange};
 use std::{env, collections::HashMap, sync::Arc};
 
 #[path = "../../lib/tba.rs"]
@@ -45,6 +45,7 @@ pub fn TeamCard(cx: Scope, team_number: String) -> impl IntoView {
       get_team_name(team_number).await.unwrap_or("Loading".to_string())
     }
   });
+
   
 
   let name_val = move || {
@@ -66,26 +67,58 @@ pub fn TeamCard(cx: Scope, team_number: String) -> impl IntoView {
   }
 }
 
+#[component]
 pub fn MatchCard(cx: Scope, event_code: String) -> impl IntoView {
 
-  let curr_match_future = create_resource(cx, || (), move |_| {
-    get_current_match()
+  // let curr_match_future = create_resource(cx, || (), move |_| {
+  //   get_current_match("4645".to_string(), "2023ilch".to_string())
+  // });
+
+  // let curr_match = move || {
+  //   curr_match_future
+  //     .read(cx)
+  //     .map(|value| format!("{curr_match_num}", curr_match_num=value.match_number.unwrap()))
+  //     .unwrap_or_else(|| "Loading...".into())
+  // };
+
+  let total_matches_future = create_resource(cx, || (), move |_| {
+    get_matches("4645".to_string(), "2023ilch".to_string())
   });
 
+  let total_matches = move || {
+    total_matches_future
+      .read(cx)
+      .map(|value| format!("{total_matches}", total_matches=value.matches.unwrap_or(vec![]).len()))
+      .unwrap_or_else(|| "Loading...".into())
+  };
+  
+  //   view! {
+  //     cx,
+  //     <div class="bg-white rounded-lg justify-center text-center shadow-lg">
+  //       <div class="p-4">
+  //         <h1 class="text-2xl"><b>"Match"</b></h1>
+  //         {curr_match}" of "{total_matches}
+  //       </div>
+  //     </div>
+  //   }
+
+  let curr_match_future = create_resource(cx, || (), move |_| {
+    get_current_match("4645".to_string(), "2023ilch".to_string())
+  });
   let curr_match = move || {
     curr_match_future
       .read(cx)
-      .map(|value| format!())
+      .map(|value| format!("{curr_match_num}", curr_match_num=value.match_number.unwrap_or(-1)))
       .unwrap_or_else(|| "Loading...".into())
   };
 
-    view! {
-      cx,
-      <div class="bg-white rounded-lg justify-center text-center shadow-lg">
-        <div class="p-4">
-          <h1 class="text-2xl"><b>"Match"</b></h1>
-          {curr_match}"/"{total_matches}
-        </div>
+  view! {
+    cx,
+    <div class="bg-white rounded-lg justify-center text-center shadow-lg">
+      <div class="p-4">
+        <h1 class="text-2xl"><b>"Match"</b></h1>
+        {curr_match}" of "{total_matches}
       </div>
-    }
+    </div>
+  }
 }

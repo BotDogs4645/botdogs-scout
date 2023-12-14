@@ -17,7 +17,7 @@ pub fn HomePage(cx: Scope) -> impl IntoView {
             <div class="flex flex-row p-4 flex-grow">
                 <div class="p-6 flex-grow"><TeamCard team_number="4645".to_string()/></div>
                 <div class="p-6 flex-grow"><RankCard team="4645".to_string()/></div>
-                <div class="p-6 flex-grow"><RankCard team="4645".to_string()/></div>
+                <div class="p-6 flex-grow"><MatchCard event_code="4645".to_string()/></div>
             </div>
         </div>
     }
