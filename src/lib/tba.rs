@@ -245,3 +245,4 @@ pub async fn get_current_match(team_number: String, event_code: String) -> Match
         matches_arr.len() - 1
     }].clone()
 }
+

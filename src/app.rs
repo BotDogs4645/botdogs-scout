@@ -1,3 +1,4 @@
+
 use leptos::*;
 use leptos_meta::*;
 use leptos_router::*;
@@ -7,6 +8,8 @@ use home::*;
 
 #[path = "pages/auth/auth.rs"] mod auth;
 
+#[path = "pages/my_team/my_team.rs"] mod my_team;
+use my_team::*;
 
 
 #[component]
@@ -29,6 +32,7 @@ pub fn App(cx: Scope) -> impl IntoView {
             <main>
                 <Routes>
                     <Route path="/" view=|cx| view!{cx, <HomePage/>}/>
+                    <Route path="/my_team" view=|cx| view!{cx, <MyTeamPage/>}/>
                 </Routes>
             </main>
         </Router>
